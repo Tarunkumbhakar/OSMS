@@ -1,0 +1,55 @@
+/*change navbar brand font style*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/*change navigation color*/
+.navbar #mymenu .custom_nav .nav-item a{
+    color:#fff;
+}
+.navbar #mymenu .custom_nav .nav-item a:hover{
+    color:#F0aab1;
+}
+
+/*make header image responsive*/
+.back-image{
+    background-size:cover;
+    min-height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    margin-top: 70px;
+}
+/*header image sub title*/
+.ptxt{
+    font-size: 24px;
+    color:white;
+}
+.mainheading{
+    margin-top:50px;
+}
+
+.fi-color{
+    color:#dc3545;
+}
+.fi-color:hover{
+    color:#e994a2;
+}
+.active{
+    background-color:#dc3545;
+}
+a{
+    color:black;
+}
+a:hover{
+    color:#dc3545;
+}
+
+/*  */
+@media only screan and(max-width:600px){
+.myclass{
+    margin-top: 450px;
+    text-align: center;
+    }
+}
